@@ -62,6 +62,7 @@ namespace WebApplication1
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+            //le enviamos como parato el objeto context = instancia del objeto context
             DbInitializer.Initializer(context);
         }
     }
